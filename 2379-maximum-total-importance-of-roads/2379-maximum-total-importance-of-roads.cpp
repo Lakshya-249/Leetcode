@@ -7,7 +7,7 @@ public:
             vec[it[1]]++;
         }
         long long ans = 0;
-        long long val = 1;
+        long val = 1;
         sort(vec.begin(),vec.end());
         for(auto it: vec) ans += it*(val++);
         return ans;
