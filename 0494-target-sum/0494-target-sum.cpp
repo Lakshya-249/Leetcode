@@ -14,8 +14,6 @@ public:
         }
         string key = to_string(i) + "-" + to_string(sum);
         if(mp.find(key) != mp.end()) return mp[key];
-        int neg = calculate(nums,i+1,sum - nums[i],target,mp);
-        int pos = calculate(nums,i+1,sum + nums[i],target,mp);
-        return mp[key] = pos + neg;
+        return mp[key] = calculate(nums,i+1,sum - nums[i],target,mp) + calculate(nums,i+1,sum + nums[i],target,mp);
     }
 };
