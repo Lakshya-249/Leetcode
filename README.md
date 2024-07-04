@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0494-target-sum](https://github.com/Lakshya-249/Leetcode/tree/master/0494-target-sum) |
 | [1293-three-consecutive-odds](https://github.com/Lakshya-249/Leetcode/tree/master/1293-three-consecutive-odds) |
 ## Hash Table
 |  |
@@ -77,5 +78,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/Lakshya-249/Leetcode/tree/master/0494-target-sum) |
 | [2511-partition-string-into-substrings-with-values-at-most-k](https://github.com/Lakshya-249/Leetcode/tree/master/2511-partition-string-into-substrings-with-values-at-most-k) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/Lakshya-249/Leetcode/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
