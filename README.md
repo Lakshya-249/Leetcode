@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0494-target-sum](https://github.com/Lakshya-249/Leetcode/tree/master/0494-target-sum) |
 | [1293-three-consecutive-odds](https://github.com/Lakshya-249/Leetcode/tree/master/1293-three-consecutive-odds) |
+| [1720-crawler-log-folder](https://github.com/Lakshya-249/Leetcode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/Lakshya-249/Leetcode/tree/master/1803-average-waiting-time) |
 | [1831-ways-to-split-array-into-three-subarrays](https://github.com/Lakshya-249/Leetcode/tree/master/1831-ways-to-split-array-into-three-subarrays) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lakshya-249/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [1720-crawler-log-folder](https://github.com/Lakshya-249/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2511-partition-string-into-substrings-with-values-at-most-k](https://github.com/Lakshya-249/Leetcode/tree/master/2511-partition-string-into-substrings-with-values-at-most-k) |
 ## Dynamic Programming
 |  |
@@ -113,4 +115,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1831-ways-to-split-array-into-three-subarrays](https://github.com/Lakshya-249/Leetcode/tree/master/1831-ways-to-split-array-into-three-subarrays) |
+## Stack
+|  |
+| ------- |
+| [1720-crawler-log-folder](https://github.com/Lakshya-249/Leetcode/tree/master/1720-crawler-log-folder) |
 <!---LeetCode Topics End-->
