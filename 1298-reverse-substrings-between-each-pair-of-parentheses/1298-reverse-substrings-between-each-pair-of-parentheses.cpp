@@ -16,10 +16,10 @@ public:
             }else st.push(it);
         }
         while(!st.empty()) {
-            res += st.top();
+            res = st.top() + res;
             st.pop();
         }
-        reverse(res.begin(), res.end());
+        // reverse(res.begin(), res.end());
         return res;
     }
 };
