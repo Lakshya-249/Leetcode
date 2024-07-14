@@ -36,7 +36,7 @@ public:
         vector<string> elem;
         for(auto it: res) elem.push_back(it.first);
         sort(elem.begin(),elem.end());
-        string result;
+        string result = "";
         for(auto it: elem){
             result += it;
             if(res[it] > 1){
