@@ -10,9 +10,9 @@
  * };
  */
 class Solution {
-    TreeNode* traversal(TreeNode* root,vector<TreeNode*>&mpp,set<int>num,bool nflag){
+    TreeNode* traversal(TreeNode* root,vector<TreeNode*>&mpp,vector<int>num,bool nflag){
         if(root == nullptr) return nullptr;
-        bool flag = num.find(root->val) != num.end();
+        bool flag = find(num.begin(), num.end(), root->val) != num.end();
         if(!flag && nflag) mpp.push_back(root);
         root->left = traversal(root->left,mpp,num,flag);
         root->right = traversal(root->right,mpp,num,flag);
@@ -22,9 +22,7 @@ public:
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
         TreeNode* Node = root;
         vector<TreeNode*> ans;
-        set<int>st;
-        for(auto it:to_delete) st.insert(it);
-        traversal(Node,ans,st,true); 
+        traversal(Node,ans,to_delete,true); 
         return ans;
     }
 };
