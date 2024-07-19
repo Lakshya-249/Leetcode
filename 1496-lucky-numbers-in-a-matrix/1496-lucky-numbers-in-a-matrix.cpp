@@ -16,14 +16,6 @@ public:
             }
             big.push_back(bignum);
         }
-        // vector<int>ans;
-        // for(int i=0;i<m;i++){
-        //     for(int j=0;j<n;j++){
-        //         if(matrix[i][j] == small[i] && matrix[i][j] == big[j]){
-        //             ans.push_back(matrix[i][j]);
-        //         }
-        //     }
-        // }
         for(auto it: small){
             for(auto itr: big){
                 if(it == itr) return {it};
