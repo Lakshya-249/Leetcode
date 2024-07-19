@@ -3,11 +3,7 @@ public:
     vector<int> luckyNumbers (vector<vector<int>>& matrix) {
         vector<int>small,big;
         for(auto it: matrix){
-            int smallnum = INT_MAX;
-            // cout<<smallnum;
-            for(auto itr:it){
-                smallnum = min(smallnum,itr);
-            }
+            int smallnum = *min_element(it.begin(),it.end());
             small.push_back(smallnum);
         }
         cout<<small[0];
