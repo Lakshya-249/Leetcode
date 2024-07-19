@@ -16,7 +16,7 @@ public:
             }
             big.push_back(bignum);
         }
-        vector<int>ans;
+        // vector<int>ans;
         // for(int i=0;i<m;i++){
         //     for(int j=0;j<n;j++){
         //         if(matrix[i][j] == small[i] && matrix[i][j] == big[j]){
@@ -26,9 +26,9 @@ public:
         // }
         for(auto it: small){
             for(auto itr: big){
-                if(it == itr) ans.push_back(it);
+                if(it == itr) return {it};
             }
         }
-        return ans;
+        return {};
     }
 };
