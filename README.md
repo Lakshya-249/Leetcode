@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Lakshya-249/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Lakshya-249/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Lakshya-249/Leetcode/tree/master/2379-maximum-total-importance-of-roads) |
 | [2511-partition-string-into-substrings-with-values-at-most-k](https://github.com/Lakshya-249/Leetcode/tree/master/2511-partition-string-into-substrings-with-values-at-most-k) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/Lakshya-249/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/Lakshya-249/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Lakshya-249/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Lakshya-249/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Lakshya-249/Leetcode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/Lakshya-249/Leetcode/tree/master/1803-average-waiting-time) |
 | [1831-ways-to-split-array-into-three-subarrays](https://github.com/Lakshya-249/Leetcode/tree/master/1831-ways-to-split-array-into-three-subarrays) |
@@ -159,4 +161,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Lakshya-249/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Lakshya-249/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 <!---LeetCode Topics End-->
