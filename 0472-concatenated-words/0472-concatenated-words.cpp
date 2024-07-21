@@ -5,12 +5,10 @@ int dp[31];
    bool conc(string &word,int i)
    {
        int n=word.size();
-       if(i==n)
-       return true;
-       if(dp[i]!=-1)
-       return dp[i];
+       if(i==n) return true;
+       if(dp[i]!=-1) return dp[i];
        bool a=false;
-       for(int j=1;j<=min(n-1,n-i);j++)//j is length of string from i'th index
+       for(int j=1;j<=min(n-1,n-i);j++)
        {
            if(mp[word.substr(i,j)]>0)
            {
