@@ -30,10 +30,6 @@ public:
         vector<int> rowOrder = toposort(rowConditions,k);
         vector<int> colOrder = toposort(colConditions,k);
 
-        for(auto it:rowOrder) cout<<it<<" ";
-        cout<<endl;
-        for(auto it:colOrder) cout<<it<<" ";
-
         if(rowOrder.empty() || colOrder.empty()) return {};
         vector<vector<int>>ans(k,vector<int>(k,0));
         unordered_map<int,int>rowMap,colMap;
