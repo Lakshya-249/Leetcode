@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/Lakshya-249/Leetcode/tree/master/0726-number-of-atoms) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Lakshya-249/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Lakshya-249/Leetcode/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/Lakshya-249/Leetcode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Lakshya-249/Leetcode/tree/master/2846-robot-collisions) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Lakshya-249/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Lakshya-249/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Lakshya-249/Leetcode/tree/master/1720-crawler-log-folder) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Lakshya-249/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/Lakshya-249/Leetcode/tree/master/1803-average-waiting-time) |
 | [1831-ways-to-split-array-into-three-subarrays](https://github.com/Lakshya-249/Leetcode/tree/master/1831-ways-to-split-array-into-three-subarrays) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lakshya-249/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/Lakshya-249/Leetcode/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Lakshya-249/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Lakshya-249/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Lakshya-249/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Lakshya-249/Leetcode/tree/master/2502-sort-the-people) |
 ## Two Pointers
