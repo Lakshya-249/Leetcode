@@ -21,7 +21,6 @@ public:
             for(int j=0;j<n;j++){
                 if(graph[i][j] <= distanceThreshold) ++val;
             }
-            // cout<<val<<endl;
             if(val<=min_num){
                 min_num = val;
                 ans = i;
