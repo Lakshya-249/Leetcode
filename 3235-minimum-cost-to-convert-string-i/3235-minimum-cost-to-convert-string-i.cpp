@@ -15,13 +15,6 @@ public:
                 }
             }
         }
-        for(auto it: graph){
-            for(auto itr: it){
-                if(itr >= 1e9) cout<<"I"<<" ";
-                else cout<<itr<<" ";
-            }
-            cout<<endl;
-        }
         long long res = 0;
         for(int i=0;i<target.size();i++){
             // if((source[i]-'a') == (target[i]-'a')) continue;
