@@ -26,7 +26,7 @@ public:
 
             int val = t/change;
             if(val&1) t = (val+1)*change;
-            cout<<t<<endl;
+            // cout<<t<<endl;
 
             for(auto it: graph[node]){
                 q.push({time+t,it});
