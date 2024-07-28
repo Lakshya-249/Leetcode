@@ -17,7 +17,7 @@ public:
         }
         long long res = 0;
         for(int i=0;i<target.size();i++){
-            // if((source[i]-'a') == (target[i]-'a')) continue;
+            if((source[i]-'a') == (target[i]-'a')) continue;
             if(graph[source[i]-'a'][target[i]-'a'] == 1e9) return -1;
             res += graph[source[i]-'a'][target[i]-'a'];
         }
