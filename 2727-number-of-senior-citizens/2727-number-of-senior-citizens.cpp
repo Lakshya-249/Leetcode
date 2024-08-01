@@ -5,7 +5,6 @@ public:
         for(auto it: details){
             string str = it.substr(11,2);
             int age = stoi(str);
-            // cout<<age<<endl;
             if(60<age) ans++; 
         }
         return ans;
