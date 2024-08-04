@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/Lakshya-249/Leetcode/tree/master/0007-reverse-integer) |
 | [1642-water-bottles](https://github.com/Lakshya-249/Leetcode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lakshya-249/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2575-minimum-cuts-to-divide-a-circle](https://github.com/Lakshya-249/Leetcode/tree/master/2575-minimum-cuts-to-divide-a-circle) |
