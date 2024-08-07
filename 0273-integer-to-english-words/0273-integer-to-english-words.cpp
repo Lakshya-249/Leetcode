@@ -7,15 +7,15 @@ class Solution {
     void convert3digittoword(int number,stack<string>&st){
         int val = number%100;
         number /= 100;
-        if(val<20){
+        if(val<20 && val != 0){
             st.push(numbers1[val]);
         }else{
             int val2 = val%10;
             val = val/10;
             if(val2>0){
                 st.push(numbers1[val2]);
-                st.push(numbers2[val]);
-            }else st.push(numbers2[val]);
+                if(val!=0) st.push(numbers2[val]);
+            }else if(val!=0) st.push(numbers2[val]);
         }
         if(number>0){
             st.push("Hundred");
@@ -33,10 +33,10 @@ public:
             num = num/1000;
             string str = "0";
             if(!st.empty()) str = st.top();
-            if(str == "" || str == " "){
-                st.pop();
-                if(!st.empty()) str = st.top();
-            }
+            // if(str == "" || str == " "){
+            //     st.pop();
+            //     if(!st.empty()) str = st.top();
+            // }
             if(str == "Thousand" && numbers3[n]=="Million"){
                 st.pop();
             }else if((str == "Million" || str == "Thousand") && numbers3[n]=="Billion"){
@@ -48,10 +48,10 @@ public:
         }
         while(!st.empty()){
             cout<<st.top()<<endl;
-            if(st.top() == "" || st.top() == " "){
-                st.pop();
-                continue;
-            }
+            // if(st.top() == "" || st.top() == " "){
+            //     st.pop();
+            //     continue;
+            // }
             ans += st.top()+" ";
             st.pop();
         }
