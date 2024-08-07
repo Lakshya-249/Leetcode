@@ -47,11 +47,11 @@ public:
             n++;
         }
         while(!st.empty()){
-            cout<<st.top()<<endl;
-            // if(st.top() == "" || st.top() == " "){
-            //     st.pop();
-            //     continue;
-            // }
+            // cout<<st.top()<<endl;
+            // // if(st.top() == "" || st.top() == " "){
+            // //     st.pop();
+            // //     continue;
+            // // }
             ans += st.top()+" ";
             st.pop();
         }
