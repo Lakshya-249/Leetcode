@@ -12,10 +12,8 @@ class Solution {
         }else{
             int val2 = val%10;
             val = val/10;
-            if(val2>0){
-                st.push(numbers1[val2]);
-                if(val!=0) st.push(numbers2[val]);
-            }else if(val!=0) st.push(numbers2[val]);
+            if(val2>0) st.push(numbers1[val2]);
+            if(val>0) st.push(numbers2[val]);
         }
         if(number>0){
             st.push("Hundred");
