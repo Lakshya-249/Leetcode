@@ -31,10 +31,6 @@ public:
             num = num/1000;
             string str = "0";
             if(!st.empty()) str = st.top();
-            // if(str == "" || str == " "){
-            //     st.pop();
-            //     if(!st.empty()) str = st.top();
-            // }
             if(str == "Thousand" && numbers3[n]=="Million"){
                 st.pop();
             }else if((str == "Million" || str == "Thousand") && numbers3[n]=="Billion"){
@@ -45,11 +41,6 @@ public:
             n++;
         }
         while(!st.empty()){
-            // cout<<st.top()<<endl;
-            // // if(st.top() == "" || st.top() == " "){
-            // //     st.pop();
-            // //     continue;
-            // // }
             ans += st.top()+" ";
             st.pop();
         }
