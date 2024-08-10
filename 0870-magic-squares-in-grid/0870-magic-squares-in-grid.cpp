@@ -30,10 +30,10 @@ public:
        int ans = 0;
        int m = grid.size();
        int n = grid[0].size();
-       for(int row=0;row+2<m;row++){
-        for(int col=0;col+2<n;col++){
-            if(isSafe(grid,row,col)) ans++;
-        }
+       for(int row=0;row<=m-3;row++){
+            for(int col=0;col<=n-3;col++){
+                if(isSafe(grid,row,col)) ans++;
+            }
        }
        return ans;
     }
