@@ -1,33 +1,25 @@
 class KthLargest {
-    vector<int>vec;
     int k;
-    int getPosition(int val){
-        int left = 0;
-        int right = vec.size()-1;
-        while(left <= right){
-            int mid = (left+right)/2;
-            int midval = vec[mid];
-            if(midval == val) return mid;
-            if(midval > val){
-                right = mid-1;
-            }
-            else {
-                left = mid+1;
-            }
-        }
-        return left;
-    }
+    priority_queue<int,vector<int>,greater<int>>pq;
 public:
     KthLargest(int k, vector<int>& nums) {
         this->k = k;
-        for(auto it: nums)vec.push_back(it);
-        sort(vec.begin(),vec.end());
+        for(auto it: nums){
+            if(pq.size()<k)pq.push(it);
+            else if(it>pq.top()){
+                pq.push(it);
+                if(pq.size()>k) pq.pop();
+            }
+        }
     }
     
     int add(int val) {
-        int index = getPosition(val);
-        vec.insert(vec.begin()+index,val);
-        return vec[vec.size()-k];
+        if(pq.size()<k)pq.push(val);
+        else if(val>pq.top()){
+            pq.push(val);
+            pq.pop();
+        }
+        return pq.top();
     }
 };
 
