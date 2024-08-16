@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0624-maximum-distance-in-arrays](https://github.com/Lakshya-249/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Lakshya-249/Leetcode/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Lakshya-249/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Lakshya-249/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0472-concatenated-words](https://github.com/Lakshya-249/Leetcode/tree/master/0472-concatenated-words) |
 | [0494-target-sum](https://github.com/Lakshya-249/Leetcode/tree/master/0494-target-sum) |
+| [0624-maximum-distance-in-arrays](https://github.com/Lakshya-249/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Lakshya-249/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/Lakshya-249/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Lakshya-249/Leetcode/tree/master/0890-lemonade-change) |
