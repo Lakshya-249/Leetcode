@@ -9,6 +9,7 @@ public:
         priority_queue<pair<double,int>,vector<pair<double,int>>>pq;
         vector<double>dist(n,0);
         pq.push({1.0,start_node});
+        dist[start_node] = 1.0;
         while(!pq.empty()){
             auto [wt,edge] = pq.top();
             pq.pop();
