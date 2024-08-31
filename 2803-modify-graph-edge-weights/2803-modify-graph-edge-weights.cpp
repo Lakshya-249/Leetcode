@@ -20,7 +20,6 @@ public:
             if(wt != -1) continue;
 
             wt = isTarget ? 1e9 : 1;
-            // cout<<wt<<" ";
             adj[i].push_back({j,wt});
             adj[j].push_back({i,wt});
             
@@ -32,11 +31,7 @@ public:
                 }
             }
             edges[ind][2] = wt;
-            cout<<wt<<endl;
         }
-        // for(auto it: edges){
-        //     cout<<it[0]<<" "<<it[1]<<" "<<it[2]<<endl;
-        // }
         return isTarget ? edges : vector<vector<int>>{};
     }
 private:
@@ -54,10 +49,8 @@ private:
                     dist[i] = wt+j;
                     pq.push({dist[i],i});
                 }
-                // cout<<dist[i]<<" ";
             }
         } 
-        cout<<dist[destination]<<"yes ";
         return dist[destination];
     }
 };
