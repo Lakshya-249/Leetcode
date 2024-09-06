@@ -20,12 +20,12 @@ private:
                     head = curr->next;
                 }else{
                     prev->next = curr->next;
-                    curr = curr->next;
-                    continue;
                 }
+                curr = curr->next;
+            }else{
+                prev = curr;
+                curr = curr->next;
             }
-            prev = curr;
-            curr = curr->next;
         }
         return head;
     }
