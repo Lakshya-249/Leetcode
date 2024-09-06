@@ -16,12 +16,14 @@ private:
         // ListNode* next = nullptr;
         while(curr != nullptr){
             if(st.find(curr->val) != st.end()){
+                ListNode* temp = curr;
                 if(curr == head){
                     head = curr->next;
                 }else{
                     prev->next = curr->next;
                 }
                 curr = curr->next;
+                delete temp;
             }else{
                 prev = curr;
                 curr = curr->next;
