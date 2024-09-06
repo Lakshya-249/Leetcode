@@ -18,11 +18,11 @@ private:
             if(st.find(curr->val) != st.end()){
                 ListNode* temp = curr;
                 if(curr == head){
-                    head = curr->next;
+                    head = temp->next;
                 }else{
-                    prev->next = curr->next;
+                    prev->next = temp->next;
                 }
-                curr = curr->next;
+                curr = temp->next;
                 delete temp;
             }else{
                 prev = curr;
