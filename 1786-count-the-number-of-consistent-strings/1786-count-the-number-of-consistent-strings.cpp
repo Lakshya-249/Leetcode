@@ -1,18 +1,19 @@
 class Solution {
-    bool allow(string allowed,string given){
-        int val = 0;
-        for(auto it:given){
-            for(auto itr: allowed){
-                if(it == itr) val++;
-            }
-        }
-        return val == given.size();
-    }
+    
 public:
     int countConsistentStrings(string allowed, vector<string>& words) {
-        int ans=0;
+        vector<int>alpha(26,0);
+        int ans = 0;
+        for(auto it: allowed) alpha[it-'a'] = 1;
         for(auto it: words){
-            if(allow(allowed,it)) ans++;
+            int val = 1;
+            for(auto chr: it){
+                if(!alpha[chr-'a']){
+                    val = 0;
+                    break;
+                }
+            }
+            ans += val;
         }
         return ans;
     }
