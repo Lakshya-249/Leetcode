@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Lakshya-249/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0386-lexicographical-numbers](https://github.com/Lakshya-249/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0472-concatenated-words](https://github.com/Lakshya-249/Leetcode/tree/master/0472-concatenated-words) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Lakshya-249/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Lakshya-249/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0386-lexicographical-numbers](https://github.com/Lakshya-249/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0472-concatenated-words](https://github.com/Lakshya-249/Leetcode/tree/master/0472-concatenated-words) |
 ## Divide and Conquer
 |  |
