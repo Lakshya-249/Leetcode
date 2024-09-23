@@ -5,8 +5,8 @@ class Solution {
         int cur = i;
         ans.push_back(cur);
         for(int i=0;i<=9;i++){
-            string str = to_string(cur) + to_string(i);
-            dfs(stoi(str),n);
+            int temp = cur*10 + i;
+            dfs(temp,n);
         }
     }
 public:
