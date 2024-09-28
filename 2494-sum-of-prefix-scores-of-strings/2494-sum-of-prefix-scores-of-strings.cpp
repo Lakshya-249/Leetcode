@@ -11,7 +11,7 @@ struct Node{
         list[ch-'a'] = new_node;
     }
     void inc(char ch){
-        list [ch - 'a']->count++;
+        list[ch - 'a']->count++;
     }
     int retCount(char ch){
         return list[ch - 'a']->count;
