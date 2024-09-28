@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Lakshya-249/Leetcode/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Lakshya-249/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2727-number-of-senior-citizens](https://github.com/Lakshya-249/Leetcode/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/Lakshya-249/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/Lakshya-249/Leetcode/tree/master/2846-robot-collisions) |
 | [3226-minimum-number-game](https://github.com/Lakshya-249/Leetcode/tree/master/3226-minimum-number-game) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Lakshya-249/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/Lakshya-249/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Lakshya-249/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Lakshya-249/Leetcode/tree/master/2502-sort-the-people) |
+| [2755-extra-characters-in-a-string](https://github.com/Lakshya-249/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Lakshya-249/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Lakshya-249/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Lakshya-249/Leetcode/tree/master/2502-sort-the-people) |
 | [2511-partition-string-into-substrings-with-values-at-most-k](https://github.com/Lakshya-249/Leetcode/tree/master/2511-partition-string-into-substrings-with-values-at-most-k) |
 | [2727-number-of-senior-citizens](https://github.com/Lakshya-249/Leetcode/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/Lakshya-249/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Lakshya-249/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Lakshya-249/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Dynamic Programming
@@ -278,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Lakshya-249/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Lakshya-249/Leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2511-partition-string-into-substrings-with-values-at-most-k](https://github.com/Lakshya-249/Leetcode/tree/master/2511-partition-string-into-substrings-with-values-at-most-k) |
+| [2755-extra-characters-in-a-string](https://github.com/Lakshya-249/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -355,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Lakshya-249/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Lakshya-249/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0472-concatenated-words](https://github.com/Lakshya-249/Leetcode/tree/master/0472-concatenated-words) |
+| [2755-extra-characters-in-a-string](https://github.com/Lakshya-249/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 ## Divide and Conquer
 |  |
 | ------- |
