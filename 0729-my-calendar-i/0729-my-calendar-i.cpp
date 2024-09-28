@@ -1,14 +1,12 @@
 class MyCalendar {
 public:
-    vector<pair<int,int>> vec;
+    map<int,int>mpp;
     MyCalendar() {}
     bool book(int start, int end) {
-        for(auto pr: vec){
-            int r_start = pr.first;
-            int r_end = pr.second;
-            if (start < r_end && end > r_start) return false;
-        }
-        vec.push_back({start,end});
+        auto next = mpp.lower_bound(start);
+        if(next != mpp.end() && next->first < end) return false;
+        if(next != mpp.begin() && prev(next)->second > start) return false;
+        mpp[start] = end;
         return true;
     }
 };
