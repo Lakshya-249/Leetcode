@@ -27,7 +27,7 @@ public:
                     ListNode* temp = st.top();
                     temp->next = prev;
                 }
-                return head;
+                break;
             }
             prev = st.top();
             st.pop();
