@@ -12,29 +12,44 @@ class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
         if (head == nullptr) return head;
-        queue<ListNode*>odd,even;
-        ListNode* node = head;
-        int i = 1;
-        while(node != nullptr){
-            if(i%2 == 0) even.push(node);
-            else odd.push(node);
-            node = node->next;
-            i++;
+        // queue<ListNode*>odd,even;
+        // ListNode* node = head;
+        // int i = 1;
+        // while(node != nullptr){
+        //     if(i%2 == 0) even.push(node);
+        //     else odd.push(node);
+        //     node = node->next;
+        //     i++;
+        // }
+        // ListNode* newhead = odd.front();
+        // odd.pop();
+        // node = newhead;
+        // while(!odd.empty()){
+        //     node->next = odd.front();
+        //     odd.pop();
+        //     node = node->next;
+        // }
+        // while(!even.empty()){
+        //     node->next = even.front();
+        //     even.pop();
+        //     node = node->next;
+        // }
+        // node->next = nullptr;
+        // return newhead;
+        
+        ListNode* odd = head;
+        ListNode* even = head->next;
+        ListNode* eHead = even;
+
+        while (even != nullptr && even->next != nullptr) {
+            odd->next = even->next;
+            odd = odd->next;
+            even->next = even->next->next;
+            even = even->next;
         }
-        ListNode* newhead = odd.front();
-        odd.pop();
-        node = newhead;
-        while(!odd.empty()){
-            node->next = odd.front();
-            odd.pop();
-            node = node->next;
-        }
-        while(!even.empty()){
-            node->next = even.front();
-            even.pop();
-            node = node->next;
-        }
-        node->next = nullptr;
-        return newhead;
+
+        odd->next = eHead;
+        return head;
+
     }
 };
