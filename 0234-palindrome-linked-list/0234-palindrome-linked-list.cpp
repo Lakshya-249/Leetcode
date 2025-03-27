@@ -22,9 +22,7 @@ public:
         }
         if (fast != nullptr) slow = slow->next;
         while (slow != nullptr) {
-            if (st.top() != slow->val) {
-                return false;
-            }
+            if (st.top() != slow->val) return false;
             st.pop();
             slow = slow->next;
         }
