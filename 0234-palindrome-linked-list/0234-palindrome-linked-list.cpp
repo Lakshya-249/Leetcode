@@ -22,12 +22,12 @@ public:
         }
         if (fast != nullptr) slow = slow->next;
         while (slow != nullptr) {
-            if (st.empty() || st.top() != slow->val) {
+            if (st.top() != slow->val) {
                 return false;
             }
             st.pop();
             slow = slow->next;
         }
-        return st.empty();
+        return true;
     }
 };
