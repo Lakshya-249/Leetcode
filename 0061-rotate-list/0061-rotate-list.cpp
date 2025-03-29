@@ -12,21 +12,23 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
         if(head == nullptr || head->next == nullptr) return head;
-        list<ListNode*>lst;
+        // list<ListNode*>lst;
         ListNode* node = head;
-        while(node != nullptr){
-            lst.push_back(node);
+        int len = 1;
+        while(node->next){
+            // lst.push_back(node);
+            len++;
             node = node->next;
         }
-        k = k % lst.size();
+        node->next = head;
+        ListNode* tail = head;
+        k = len - (k % len) - 1;
         while(k){
-            ListNode* rght = lst.back();
-            lst.pop_back();
-            rght->next = lst.front();
-            lst.push_front(rght);
-            lst.back()->next = nullptr;
+            tail = tail->next;
             k--;
         }
-        return lst.front();
+        head = tail->next;
+        tail->next = nullptr;
+        return head;
     }
 };
