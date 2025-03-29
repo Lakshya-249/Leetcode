@@ -43,7 +43,6 @@ public:
                 node = tail;
             }else {
                 dummy->next = temp;
-
                 node = nullptr;
             }
             
