@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Lakshya-249/Leetcode/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0472-concatenated-words](https://github.com/Lakshya-249/Leetcode/tree/master/0472-concatenated-words) |
+| [0485-max-consecutive-ones](https://github.com/Lakshya-249/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Lakshya-249/Leetcode/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/Lakshya-249/Leetcode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/Lakshya-249/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
