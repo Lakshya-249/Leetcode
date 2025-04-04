@@ -14,11 +14,8 @@ public:
         // }
         // return ans;
         int n = nums.size();
-        vector<int>ans(n,0);
-        if(n==1) return nums;
-        int pos = 0;
-        int neg = 1;
-        int i=0;
+        vector<int> ans(n, 0);
+        int pos = 0, neg = 1;
         for (int i = 0;i<n;i++) {
             if (nums[i] > 0) {
                 ans[pos] = nums[i];
