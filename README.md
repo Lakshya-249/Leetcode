@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Lakshya-249/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Lakshya-249/Leetcode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/Lakshya-249/Leetcode/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/Lakshya-249/Leetcode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Lakshya-249/Leetcode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Lakshya-249/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Lakshya-249/Leetcode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/Lakshya-249/Leetcode/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/Lakshya-249/Leetcode/tree/master/0046-permutations) |
 | [0494-target-sum](https://github.com/Lakshya-249/Leetcode/tree/master/0494-target-sum) |
 ## Recursion
 |  |
